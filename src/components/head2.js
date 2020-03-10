@@ -5,7 +5,7 @@ const Head2 = (props) => {
         <div className="container" id="second_heading">
             <div className="row">
                 <div className="col-8 p-5">
-                    <img src="../public/assets/img/2.jpg" style="border-radius: 50%;" alt="..."/>
+                    <img src="../public/assets/img/2.jpg"/>
             </div>
                     <div className="col-4 p-5">
                         <h4>The Second Heading <span className="text-muted">Is Pretty Cool Too

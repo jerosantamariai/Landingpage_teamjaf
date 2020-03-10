@@ -14,12 +14,16 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap';
 
-
+import Navbar from "./components/navbar";
+import Head1 from "./components/head1";
+import Head2 from "./components/head2";
 
 const Pancho = () => {
     return (
         <div>
-            <Header />
+            <Navbar/>
+            <Head1/>
+            <Head2/>
         </div>
     )
 }
