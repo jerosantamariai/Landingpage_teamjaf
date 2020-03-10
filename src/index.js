@@ -14,13 +14,12 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap';
 
-import Navbar from "./components/navbar.js"
+import Navbar from "./components/navbar"
 
 const Pancho = () => {
     return (
         <div>
             <Navbar />
-            <Header />
         </div>
     )
 }
