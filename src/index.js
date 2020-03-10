@@ -15,11 +15,13 @@ import 'popper.js';
 import 'bootstrap';
 
 import Navbar from "./components/navbar"
+import Contact from "./components/contact"
 
 const Pancho = () => {
     return (
         <div>
             <Navbar />
+            <Contact/>
         </div>
     )
 }
