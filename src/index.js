@@ -14,9 +14,11 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap';
 
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar"
 import Head1 from "./components/head1";
 import Head2 from "./components/head2";
+import Contact from "./components/contact";
+
 
 const Pancho = () => {
     return (
@@ -24,6 +26,7 @@ const Pancho = () => {
             <Navbar/>
             <Head1/>
             <Head2/>
+            <Contact/>
         </div>
     )
 }
