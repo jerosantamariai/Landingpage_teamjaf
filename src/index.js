@@ -16,11 +16,13 @@ import 'bootstrap';
 
 import Navbar from "./components/navbar"
 import Contact from "./components/contact"
+import Header from "./components/header"
 
 const Pancho = () => {
     return (
         <div>
             <Navbar />
+            <Header />
             <Contact/>
         </div>
     )
