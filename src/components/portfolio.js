@@ -1,7 +1,7 @@
 import React from "react";
 const Portfolio = (props) => {
     return (
-        <div className="container mb-4 " id="portfolio">
+        <div className="container mb-4 " id="portfolio ">
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
                     <div className="col-10">
