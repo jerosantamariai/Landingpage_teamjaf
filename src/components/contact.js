@@ -1,7 +1,7 @@
 import React from "react";
 const Contact = (props) => {
     return (
-        <div className="container">
+        <div className="container" id="contacts">
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
                     <div className="col-10">
@@ -13,14 +13,14 @@ const Contact = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <form className="col-6">
-                        <div className="container">
+                        <div className="container bg-light p-4">
                             <div className="row">
                                 <div className="col-4">
                                     <div className="form-group">
                                         <label>Your E-mail</label>
                                     </div>
                                 </div>
-                                <div className="col-8">
+                                <div className="col-8 ">
                                     <div className="form-group">
                                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email"></input>
                                     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Head2 = (props) => {
     return (
-        <div className="container" id="second_heading">
+        <div className="container" id="head2">
             <div className="row">
                 <div className="col-4 p-5">
                     <img src="../public/assets/img/2.jpg" className="rounded-circle"/>
