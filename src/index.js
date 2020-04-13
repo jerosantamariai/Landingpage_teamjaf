@@ -24,12 +24,15 @@ import Portfolio from "./components/portfolio";
 const Pancho = () => {
     return (
         <div>
-            <Navbar/>
-            <Header/>
-            <Head1/>
-            <Head2/>   
-            <Portfolio/>
-            <Contact/>
+            <Navbar />
+            <Header />
+            <Head1 />
+            <hr />
+            <Head2 />
+            <hr />
+            <Portfolio />
+            <hr />
+            <Contact />
         </div>
     )
 }

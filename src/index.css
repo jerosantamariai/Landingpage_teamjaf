@@ -6,15 +6,16 @@ body {
 
 #header{
     background-image: url(/public/assets/img/bg.jpg);
-    height:750px;
+    height:630px;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 #header div div h1{
     background-color: whitesmoke;
     width: 100%;
     text-align: center;
+    border-radius: 25px;
 }
 
 #separator{
@@ -23,8 +24,9 @@ body {
 
 #header div div h3{
     background-color: whitesmoke;
-    width: 100%;
+    width: 80%;
     text-align: center;
+    border-radius: 25px;
 }
 
 a{

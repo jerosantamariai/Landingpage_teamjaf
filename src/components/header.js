@@ -3,8 +3,8 @@ import React from "react"
 const Header = () => {
     return (
         <div className="container-fluid " id="header">
-            <div className="row">
-                <div className="col-12 d-flex justify-content-center mt-4 mx-0">
+            <div className="row d-flex justify-content-center p-4 rounded">
+                <div className="col-8 p-4 mx-2">
                     <h1 className="display-1"><strong> One Page Wonder </strong></h1>
 
                 </div>

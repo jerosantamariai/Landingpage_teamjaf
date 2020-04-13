@@ -1,7 +1,7 @@
 import React from "react";
 const Contact = (props) => {
     return (
-        <div className="container" id="contacts">
+        <div className="container" id="contact">
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
                     <div className="col-10">

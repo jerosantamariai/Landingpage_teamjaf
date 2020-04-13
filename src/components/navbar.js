@@ -2,27 +2,25 @@ import React from "react"
 
 const Navbar = (props) => {
     return (
-        <nav className="navbar navbar-expand-lg text-light bg-dark">
-            <div className="collapse navbar-collapse" id="navBar">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Start Bootstrap</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#head2">Services</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#contacts">Contact</a>
-                    </li>
-                </ul>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="col-3 offset-1">
+                <a className="navbar-brand" href="#">Start Bootstrap</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
             </div>
-        </nav>
+            <div className="col-4 offset-4">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div className="navbar-nav">
+                        <a className="nav-item nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link" href="#head1">Head1</a>
+                        <a className="nav-item nav-link" href="#head2">Head2</a>
+                        <a className="nav-item nav-link" href="#portfolio">Portfolio</a>
+                        <a className="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div >
+        </nav >
     )
 }
 
